@@ -1,5 +1,11 @@
 ## 🛒 Walmart Customer Spending Analysis
 
+**Exploratory Data Analysis & Statistical Inference (Python, EDA, CLT, Bootstrapping)**
+
+
+📌 Skills: EDA, Statistical Inference, Python, Data Visualization
+
+
 ### 📌 Business Problem
 Walmart wants to understand customer purchase behavior during Black Friday, specifically how spending varies across gender, marital status, and age groups, to support data-driven business decisions.
 
