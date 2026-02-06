@@ -1,55 +1,62 @@
-## 🛒 Walmart Customer Spending Analysis
+# 🛒 Walmart Customer Spending Analysis
 
-**Exploratory Data Analysis & Statistical Inference (Python, EDA, CLT, Bootstrapping)**
-
-
-📌 Skills: EDA, Statistical Inference, Python, Data Visualization
-
-
-### 📌 Business Problem
-Walmart wants to understand customer purchase behavior during Black Friday, specifically how spending varies across gender, marital status, and age groups, to support data-driven business decisions.
+Exploratory Data Analysis and Statistical Inference on Walmart Black Friday customer spending behavior.
 
 ---
 
-### 📊 Dataset Overview
-- ~550K customer transactions
-- Features include:
-  - Gender
-  - Age group
-  - Marital status
-  - City category
-  - Product category
-  - Purchase amount
+## 📌 Project Overview
+This project analyzes customer purchase patterns during Black Friday to understand how spending varies across gender, marital status, and age groups. The goal is to derive actionable business insights for customer targeting and marketing strategy.
 
 ---
 
-### 🧪 Analysis Performed
-- Data cleaning and preprocessing
-- Missing value and outlier treatment (5th–95th percentile clipping)
-- Exploratory Data Analysis (EDA)
+## 📊 Dataset Overview
+- ~550,000 customer transactions
+- Source: Walmart Black Friday Dataset
+
+### Data Dictionary
+| Column | Description |
+|---------|-------------|
+| User_ID | Unique customer ID |
+| Product_ID | Unique product ID |
+| Gender | Customer gender |
+| Age | Age group |
+| Occupation | Customer occupation |
+| City_Category | City type (A/B/C) |
+| StayInCurrentCityYears | Years in current city |
+| Marital_Status | Married or unmarried |
+| ProductCategory | Product category |
+| Purchase | Purchase amount |
+
+---
+
+## 🧪 Analysis Performed
+- Data Cleaning & Preprocessing
+- Missing Value Detection
+- Outlier Treatment (5th–95th Percentile Clipping)
+- Exploratory Data Analysis
 - Central Limit Theorem (CLT)
 - Bootstrapping
-- Confidence Interval estimation
-- Effect of sample size on distribution of means
+- Confidence Interval Estimation
+- Sample Size Impact Analysis
 
 ---
 
-### 🔍 Key Insights
+## 🔍 Key Insights
 - Spending patterns differ across gender groups
-- Married customers tend to have higher average spending
-- Age group 26–35 contributes significantly to revenue
-- Confidence intervals narrow as sample size increases, validating CLT behavior
+- Married customers show higher average purchase values
+- Age group 26–35 contributes major revenue
+- Larger sample sizes produce tighter confidence intervals validating CLT
 
 ---
 
-### 💡 Business Recommendations
-- Target high-value age segments with focused promotions
-- Design personalized offers based on marital status
-- Optimize product category placement based on gender preference
+## 💡 Business Recommendations
+- Target high-spending age segments with personalized campaigns
+- Optimize product placement based on gender preferences
+- Design loyalty offers for married customers
 
 ---
 
-### 🛠️ Tools & Technologies
+## 🛠 Tools & Technologies
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
@@ -57,6 +64,9 @@ Walmart wants to understand customer purchase behavior during Black Friday, spec
 
 ---
 
-### Author
-Priyanka
+## 👩‍💻 Author
+Priyanka  
+Aspiring Data Analyst  
 
+
+## 📂 Repository Structure
